@@ -1,0 +1,136 @@
+/* Global Styles */
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  background: linear-gradient(#fcad7f 60%, #008791);
+  color: #a00854;
+  justify-items: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.holder {
+  width: 100%;
+  max-width: 500px;
+  /* margin-bottom: 1.5em; */
+  margin-left: 1.1em;
+  /* margin-top: 0.7em; */
+  text-align: center;
+}
+
+/* Headline */
+.headline {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.1em;
+}
+
+/* Form Section */
+.zip label,
+.feel label {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  color: #fcad7f;
+  background-color: #ee2e7e;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-family: "Oswald", sans-serif;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color: #008791;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background-color: #008791;
+  color: #fcad7f;
+  font-size: 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Oswald", sans-serif;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a00854;
+}
+
+/* Entry Section */
+.entry {
+  background: rgba(59, 74, 107, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #fcad7f;
+}
+
+#entryHolder {
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+#date,
+#temp,
+#content {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#date {
+  font-weight: bold;
+}
+
+#temp {
+  color: #fff;
+}
+
+#content {
+  font-style: italic;
+}
+
+/* Placeholder Styling */
+::placeholder {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+
+/* Focus and Reset Styles */
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
